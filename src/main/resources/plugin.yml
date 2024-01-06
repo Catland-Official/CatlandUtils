@@ -1,0 +1,22 @@
+name: CatlandUtils
+version: '1.0'
+main: top.lqsnow.catlandutils.Main
+api-version: '1.20'
+commands:
+  getop:
+    usage: ""
+    description: ""
+  menu:
+    usage: ""
+    description: ""
+  getrandomtemplate:
+    usage: ""
+    description: ""
+permissions:
+  catlandutils.*:
+    description: ""
+    children:
+      catlandutils.getrandomtemplate: true
+  catlandutils.getrandomtemplate:
+    description: ""
+    default: op
